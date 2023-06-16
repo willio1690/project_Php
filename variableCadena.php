@@ -15,8 +15,22 @@ especiales   @&%$·"*/
 
 $color = "morao";
 $Color="Azul";
-$COLOR="Verde";
-
+$COLOR="Verde ";
+$COLOR ="blue";
+ 
 echo $COLOR;
+echo $Color;
+echo $color;
+echo $nombre;
+echo $_apellido;
+
+// funcion para saber que tipo de variable
+// es 
+echo gettype ($_apellido);
+//
+
+var_dump($_apellido);
+
+
 
 ?>
