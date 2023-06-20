@@ -4,6 +4,11 @@
 =========================================
 operadores de asignacion
 =
+este simbolo  refleja que el valor
+de la parte izquierda se establece
+como expresion de la derecha 
+("se define como")
+
 
 operadores de asignacion combinados
 
