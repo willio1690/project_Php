@@ -30,8 +30,8 @@ $numero_original = 5;
 $numero_duplicado = duplicar($numero_original);
 
 // Mostrar resultados
-echo "Número original: " . $numero_original . "\n";
-echo "Número duplicado: " . $numero_duplicado . "\n";
+echo "Número original: " . $numero_original . "<br>";
+echo "Número duplicado: " . $numero_duplicado . "<br>";
 
 
 /*
@@ -61,7 +61,7 @@ echo "Antes de incrementar: $miNumero <br>";
 // Llamada a la función
 incrementar($miNumero); // Se pasa $miNumero como referencia
 
-echo "Después de incrementar: $miNumero";
+echo "Después de incrementar: $miNumero<br>";
 
 
 /*
@@ -72,6 +72,68 @@ echo "Después de incrementar: $miNumero";
 
 
 */
+
+
+// Variable
+$miNumero = 6;
+
+// Función que verifica si un número es par
+function esPar($numero) {
+    return $numero % 2 == 0;
+}
+
+// Función que duplica un número por referencia
+function duplicar1(&$numero) {
+    $numero *= 2;
+}
+
+
+
+// Verificar si el número es par y duplicarlo
+if (esPar($miNumero) && duplicar1($miNumero)) {
+    echo "El número es par y se ha duplicado: $miNumero";
+} else {
+    echo "El número no es par o no se ha podido duplicar";
+}
+
+/*
+================******==============************=============*******
+
+En esta línea, se utiliza una estructura condicional if para verificar
+si $miNumero es par utilizando la función esPar($miNumero) y si la 
+función duplicar($miNumero) se ejecuta correctamente. Si ambas 
+condiciones son verdaderas, se imprime el mensaje
+"El número es par y se ha duplicado: $miNumero"
+ De lo contrario, se imprime el mensaje
+"El número no es par o no se ha podido duplicar".
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
