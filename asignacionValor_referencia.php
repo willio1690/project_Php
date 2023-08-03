@@ -18,13 +18,15 @@ no afecta al valor original fuera de ella.
 ==========================================
 */
 // Definición de la función para multiplicar un número por 2
+$numero=2;
 function duplicar($numero) {
     $numero *= 2; // Multiplicamos el número por 2
     return $numero; // Devolvemos el resultado
 }
 
+
 // Asignación de valor original
-$numero_original = 5;
+$numero_original = 3;
 
 // Llamada a la función y asignación del resultado
 $numero_duplicado = duplicar($numero_original);
@@ -38,7 +40,7 @@ echo "Número duplicado: " . $numero_duplicado . "<br>";
 ===================*******====================
 funciones por referencia
 
-desde la funcion se acceda de forma indirecta
+desde la funcion se accede de forma indirecta
 a una variable que este afuera y referenciarla
 por medio de una referencia &
 para poder trabajar con el valor original de 
