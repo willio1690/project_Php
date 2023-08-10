@@ -15,8 +15,9 @@ utilizada en una expresion la variable
 */
 $a=15;
 
-echo "\npost-incremento\n".$a++;
-echo "resultado".$a;
+echo "post-incremento <br>".$a++."<br>";
+echo "resultado<br>".$a."<br>";
+
 
 /*
 =================================
@@ -25,14 +26,17 @@ echo "resultado".$a;
 variable que aumenta en 1 antes de 
 ser utilizada en una expresion se
 distingue porque tiene ++ adelante
+tiene como caracteristica que cambia 
+la variabla original por el valor 
+actual 
 
 */
 
 
 $b=17;
 
-echo "\npre-incremento\n".++$b;
-echo "resultado".$b;
+echo "<br>pre-incremento<br>".++$b;
+echo "<br>resultado<br>".$b."<br>";
 
 /*
 =================================
@@ -45,8 +49,8 @@ utilizada en una expresion la variable
 */
 $c=20;
 
-echo "\npost-decremento\n".$c--;
-echo "resultado".$c;
+echo "<br>post-decremento<br>".$c--."<br>";
+echo "<br>resultado<br>".$c."<br>";
 
 
 /*
@@ -63,8 +67,8 @@ distingue porque tiene -- adelante
 
 $d=30;
 
-echo "\npre-decremento\n".--$d;
-echo "resultado".$d;
+echo "<br>pre-decremento<br>".--$d."<br>";
+echo "<br>resultado<br>".$d."<br>";
 
 
 
