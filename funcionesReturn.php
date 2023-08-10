@@ -30,7 +30,30 @@ una variable en este caso sumaTotal
 
 $sumaTotal=sumarNumeros(1,24,19);
 // se imprime la variable sumaTotal 
-echo "la sumatoria total es:.$sumaTotal";
+echo "la sumatoria total es:".$sumaTotal."<br>";
+
+function restarNumeros($n1,$n2){
+
+
+return $n1-$n2;
+
+}
+
+$restarNumero=restarNumeros(33,27);
+echo "la resta total es:". $restarNumero;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
