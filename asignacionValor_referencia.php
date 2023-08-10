@@ -18,13 +18,11 @@ no afecta al valor original fuera de ella.
 ==========================================
 */
 // Definición de la función para multiplicar un número por 2
-$numero=2;
-function duplicar($numero) {
-    $numero *= 2; // Multiplicamos el número por 2
-    return $numero; // Devolvemos el resultado
+$numero1=2;
+function duplicar($numero1) {
+    $numero1 *= 2; // Multiplicamos el número por 2
+    return $numero1; // Devolvemos el resultado
 }
-
-
 // Asignación de valor original
 $numero_original = 3;
 
@@ -32,6 +30,7 @@ $numero_original = 3;
 $numero_duplicado = duplicar($numero_original);
 
 // Mostrar resultados
+echo "numero:".$numero1."<br>";
 echo "Número original: " . $numero_original . "<br>";
 echo "Número duplicado: " . $numero_duplicado . "<br>";
 
@@ -48,6 +47,32 @@ la variable.
 =====*****======****=====****====****=====***===
 
 */
+$numerop=16;
+function dividir($numerop){
+    $numerop /=3;
+    return $numerop;
+
+}
+
+$numero_div =13;
+$numero_divi = dividir($numero_div);
+
+// Mostrar resultados division
+echo "Número dividido: " . $numero_divi . "<br>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Función que incrementa el valor de una variable por referencia
