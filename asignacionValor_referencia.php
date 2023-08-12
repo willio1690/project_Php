@@ -26,7 +26,7 @@ function duplicar($numero1) {
 // Asignación de valor original
 $numero_original = 3;
 
-// Llamada a la función y asignación del resultado
+// Llamada a la función y asignación de variable 
 $numero_duplicado = duplicar($numero_original);
 
 // Mostrar resultados
@@ -36,17 +36,13 @@ echo "Número duplicado: " . $numero_duplicado . "<br>";
 
 
 /*
-===================*******====================
-funciones por referencia
+========*****=======
 
-desde la funcion se accede de forma indirecta
-a una variable que este afuera y referenciarla
-por medio de una referencia &
-para poder trabajar con el valor original de 
-la variable.
-=====*****======****=====****====****=====***===
-
+Ejemplo 
 */
+
+
+
 $numerop=16;
 function dividir($numerop){
     $numerop /=3;
@@ -61,21 +57,23 @@ $numero_divi = dividir($numero_div);
 echo "Número dividido: " . $numero_divi . "<br>";
 
 
+/*
+===================*******====================
+funciones por referencia
 
+desde la funcion se accede de forma indirecta
+a una variable que este afuera y referenciarla
+por medio de una referencia &
+para poder trabajar con el valor original de 
+la variable.
+=====*****======****=====****====****=====***===
 
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 // Función que incrementa el valor de una variable por referencia
+
+
 function incrementar(&$numero) {
     $numero++; // Incrementa el valor de $numero en 1
 }
@@ -93,10 +91,7 @@ echo "Después de incrementar: $miNumero<br>";
 
 /*
 
-
-
-
-
+ejemplo 
 
 */
 
